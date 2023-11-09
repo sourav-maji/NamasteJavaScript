@@ -41,6 +41,6 @@ console.log(b);
 let a = 10
 var b = 100
 
-
+console.log(a);
 // let and const are allocated memory in different memory space than global memory space.
 // var is allocated memory in global memory space
