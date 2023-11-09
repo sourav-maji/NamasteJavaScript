@@ -21,16 +21,26 @@
 // }
 
 
-function a (){
-    function c (){
-        console.log(b);
-    }
-    c()
-}
+// function a (){
+//     function c (){
+//         console.log(b);
+//     }
+//     c()
+// }
 
-var b = 10;
-a();
+// var b = 10;
+// a();
 
 // Lexial env  means local memory of a variable + lexical memory of the parent of that variable
 // Scope Chain :- The whole chain of lexical env is called scope chain
 
+
+console.log(b);
+// console.log(a);  // this will trow error as we use let
+
+let a = 10
+var b = 100
+
+
+// let and const are allocated memory in different memory space than global memory space.
+// var is allocated memory in global memory space
