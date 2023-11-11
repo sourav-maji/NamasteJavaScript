@@ -35,14 +35,48 @@
 // Scope Chain :- The whole chain of lexical env is called scope chain
 
 
-console.log(b);
-// console.log(a);  // this will trow error as we use let
+// console.log(b);
+// // console.log(a);  // this will trow error as we use let
 
-let a = 10
-var b = 100
+// let a = 10
+// var b = 100
 
-console.log(a);
-// let and const are allocated memory in different memory space than global memory space.
-// var is allocated memory in global memory space
+// console.log(a);
+// // let and const are allocated memory in different memory space than global memory space.
+// // var is allocated memory in global memory space
+// {
+//    block means  compound statement 
+// in js we use block to group multiple statement
+// }
+
+// we group multiple statements inside a block so that we can use that block in a place where js expect a single statement
+// {
+// var a = 10;
+// let b = 20;
+// const c = 30;
+// console.table(a,b,c)
+// }
+
+// console.table(a,b,c)
 
 
+// Shadowing
+// {
+//     let a = 20;
+//     {
+//         let a = 10;
+//         console.log(a);  // o/p = 10
+//     }
+//     console.log(a);     // o/p = 20
+// }
+
+
+// Illegal shadowing
+// {
+//     let a = 100;
+//     {
+//         var a = 20;
+//         console.log(a);
+//     }
+//     console.log(a);
+// }
