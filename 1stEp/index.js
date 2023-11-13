@@ -99,35 +99,36 @@
 // z();
 
 
-function x() {
-    var i = 1;
+// function x() {
+//     var i = 1;
 
-    setTimeout( function (){
-        console.log(i);
-    }, 1000);
+//     setTimeout( function (){
+//         console.log(i);
+//     }, 1000);
 
-    for( var i = 1 ; i <= 5 ; i++ ){
-        setTimeout(() => {
-            console.log(i);
-        }, i * 1000);
-    }
+//     for( var i = 1 ; i <= 5 ; i++ ){
+//         setTimeout(() => {
+//             console.log(i);
+//         }, i * 1000);
+//     }
 
-    for ( let i = 1 ; i <= 5 ; i++ ){
-        setTimeout( function (){
-            console.log(i);
-        }, i * 1000)
-    }
-    for ( var i = 1 ; i<= 5 ; i++){
-        function close(x){
-            setTimeout ( function (){
-                console.log(x);
-            }, x * 1000)
-        }
-        close(i);
-    }
+//     for ( let i = 1 ; i <= 5 ; i++ ){
+//         setTimeout( function (){
+//             console.log(i);
+//         }, i * 1000)
+//     }
+//     for ( var i = 1 ; i<= 5 ; i++){
+//         function close(x){
+//             setTimeout ( function (){
+//                 console.log(x);
+//             }, x * 1000)
+//         }
+//         close(i);
+//     }
 
-    console.log("Namaste JavaScript");
+//     console.log("Namaste JavaScript");
     
-}
+// }
 
-x();
+
+// x();
