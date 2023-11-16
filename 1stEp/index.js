@@ -126,9 +126,9 @@
 //         close(i);
 //     }
 
-//     console.log("Namaste JavaScript");
+    console.log("Namaste JavaScript");
     
-// }
+}
 
 
-// x();
+x();
