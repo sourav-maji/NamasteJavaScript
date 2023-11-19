@@ -129,6 +129,18 @@
 //     console.log("Namaste JavaScript");
     
 // }
+// x();
 
+function outer() {
+    function inner() {
+        console.log(a);
+        
+    }
+    let a =10;
+    return inner;
+    
+}
 
-x();
+var close = outer();
+close()
+
