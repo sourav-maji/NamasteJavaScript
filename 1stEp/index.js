@@ -131,15 +131,15 @@
 // }
 // x();
 
-function outer() {
-    function inner() {
-        console.log(a);
+// function outer() {
+//     function inner() {
+//         console.log(a);
         
-    }
-    let a =10;
-    return inner;
+//     }
+//     let a =10;
+//     return inner;
     
-}
+// }
 
 var close = outer();
 close()
