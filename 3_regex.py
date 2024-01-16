@@ -8,3 +8,7 @@ pattern = "FY\d{4}\s\w[1-4]"
 
 res=re.findall(pattern,text)
 print(res)
+
+#Ignoring the case
+res1=re.findall(pattern.lower(),text,re.IGNORECASE)
+print(res1)
